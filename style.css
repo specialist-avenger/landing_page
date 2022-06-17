@@ -66,6 +66,10 @@ p{
     margin-right: 20px;
     color: hsl(192, 100%, 9%);
 }
+#Try:hover{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}
 .head_container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -86,6 +90,11 @@ p{
     text-decoration: none;
     color: white;
 
+}
+#get_started:hover{
+    background-color: transparent;
+    border: 1px solid hsl(322, 100%, 66%);
+    color: hsl(192, 100%, 9%);
 }
 .right{
     animation-duration: 3s;
@@ -198,6 +207,11 @@ p{
     color: white;
     font-weight: 400;
 }
+.cross a:hover{
+    background-color: transparent;
+    border: 1px solid hsl(322, 100%, 66%);
+    color: hsl(192, 100%, 9%);
+}
 .foot{
     background-color: hsl(192, 100%, 9%);
     padding: 30px;
@@ -229,30 +243,7 @@ p{
     text-align: center;
 }
 .foot_three a{
-    margin: 10px;@keyframes slidein{
-        from{
-            margin-left: 100%;
-            
-        }
-    }
-    @keyframes slidein{
-        from{
-            margin-left: 100%;
-            
-        }
-    }
-    @keyframes slidein{
-        from{
-            margin-left: 100%;
-            
-        }
-    }
-    @keyframes slidein{
-        from{
-            margin-left: 100%;
-            
-        }
-    }
+    margin: 10px;
 }
 
 /* Media query for tablet and smaller pc screens */
@@ -268,6 +259,10 @@ p{
     .main_three_left{
         padding: 20px;
         margin-top: 50px;
+    }
+    .left{
+        padding: 20px;
+        margin-top: 10px;
     }
 }
 
@@ -337,6 +332,9 @@ p{
     }
     .foot{
         padding: 10px;
+    }
+    #copyright{
+        text-align: center;
     }
     .foot_container{
         display: flex;
