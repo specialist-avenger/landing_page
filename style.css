@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    margin: 0;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+    
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+.head{
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.head p{
+    color: hsl(192, 100%, 9%);
+    font-weight: 700;
+}
+#logo{
+    animation: wiggle 2s linear;
+}
+@keyframes wiggle{
+    
+      0%, 7%  {transform: rotateZ(0);
+      }
+      15% {
+        transform: rotateZ(-15deg);
+      }
+      20% {
+        transform: rotateZ(10deg);
+      }
+      25% {
+        transform: rotateZ(-10deg);
+      }
+      30% {
+        transform: rotateZ(6deg);
+      }
+      35% {
+        transform: rotateZ(-4deg);
+      }
+      40%, 100% {
+        transform: rotateZ(0);
+      }
+}
+#Try{
+    float: right;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    color: hsl(192, 100%, 9%);
+}
+.head_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding-top: 30px;
+}
+
+.left{
+    padding: 50px;
+}
+#get_started{
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: hsl(322, 100%, 66%);
+    text-decoration: none;
+    color: white;
+
+}
+.right{
+    animation-duration: 3s;
+    animation-name: slidein; 
+}
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        
+    }
+}
+
+.main_container{
+    background-color: white;
+    margin: 20px;
+    margin-bottom: 200px;
+}
+.main p{
+    color: hsl(208, 11%, 55%);
+    font-weight: 400;
+}
+
+.main_one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: 0px 0px 3px 3px rgb(192, 189, 189);
+}
+.main_one_left{
+    padding: 50px;
+    margin-top: 100px;
+}
+.main_one_right{
+    animation-duration: 3s;
+    animation-name: slidein; 
+}
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        
+    }
+}
+.img_pack img{/* To balance the image in the container*/
+    width: 100%;
+}
+.main_two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: 0px 0px 3px 3px rgb(192, 189, 189);
+}
+.main_two_right{
+    padding: 50px;
+    margin-top: 100px;
+}
+.main_two_left{
+    animation-duration: 3s;
+    animation-name: slidein; 
+}
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        
+    }
+}
+.main_three{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: 0px 0px 3px 3px rgb(192, 189, 189);
+}
+.main_three_left{
+    padding: 50px;
+    margin-top: 100px;
+}
+.main_three_right{
+    animation-duration: 3s;
+    animation-name: slidein; 
+}
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        
+    }
+}
+
+.cross{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    border-radius: 10px;
+    padding: 70px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0px 0px 3px 3px rgb(218, 215, 215);
+    width: 50%;
+    text-align: center;
+}
+.cross a{
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 400;
+}
+.foot{
+    background-color: hsl(192, 100%, 9%);
+    padding: 30px;
+    
+}
+#copyright{
+    color: white;
+    text-align: right;
+}
+.foot_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3em;
+    color: white;
+    margin-top: 150px;
+}
+
+.foot_container a{
+    text-decoration: none;
+    color: white;
+}
+.foot_two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 45px;
+}
+.foot_three{
+    padding-top: 45px;
+    text-align: center;
+}
+.foot_three a{
+    margin: 10px;@keyframes slidein{
+        from{
+            margin-left: 100%;
+            
+        }
+    }
+    @keyframes slidein{
+        from{
+            margin-left: 100%;
+            
+        }
+    }
+    @keyframes slidein{
+        from{
+            margin-left: 100%;
+            
+        }
+    }
+    @keyframes slidein{
+        from{
+            margin-left: 100%;
+            
+        }
+    }
+}
+
+/* Media query for tablet and smaller pc screens */
+@media screen and (max-width:1100px){
+    .main_one_left{
+        padding: 20px;
+        margin-top: 50px;
+    }
+    .main_two_right{
+        padding: 20px;
+        margin-top: 50px;
+    }
+    .main_three_left{
+        padding: 20px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .head
+    .head_container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 1em;
+        padding-top: 30px;
+    }
+    #Try{
+        border: 1px solid black;
+        float: none;
+        display: block;
+        width: fit-content;
+    }
+    .left{
+        padding: 0px;
+    }
+    .main_one{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 1em;
+        border-radius: 10px;
+        margin: 40px;
+        box-shadow: 0px 0px 3px 3px rgb(192, 189, 189);
+    }
+    .main_one_left{
+        padding: 20px;
+        margin-top: 0px;
+    }
+    .main_two{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        gap: 1em;
+        border-radius: 10px;
+        margin: 40px;
+        box-shadow: 0px 0px 3px 3px rgb(192, 189, 189);
+    }
+    .main_two_right{
+        padding: 20px;
+        margin-top: 0px;
+    }
+    .main_three{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 1em;
+        border-radius: 10px;
+        margin: 40px;
+        box-shadow: 0px 0px 3px 3px rgb(192, 189, 189);;
+    }
+    .main_three_left{
+        padding: 20px;
+        margin-top: 0px;
+    }
+    .cross a{
+        padding: 10px;
+        border-radius: 30px;
+        background-color: hsl(322, 100%, 66%);
+        color: white;
+        font-size: small;
+    }
+    .foot{
+        padding: 10px;
+    }
+    .foot_container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 1em;
+        color: white;
+    }
+    .foot_one{
+        text-align: center;
+    }
+    .foot_two{
+        text-align: center;
+    }
+        
+    .foot_container a{
+        text-decoration: none;
+        color: white;
+    }
+    .foot_two{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        padding-top: 45px;
+    }
+    .foot_three{
+        padding-top: 45px;
+        text-align: center;
+    }
+    .foot_three a{
+        margin: 10px;
+    }
+}
+
+/* Media query for smaller mobile screens */
+@media screen and (max-width: 350px){
+    #logo{
+        width: 100%;
+    }
+    .head{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0;
+    }
+    .main_container{
+        margin: 5px;
+        margin-bottom: 200px;
+    }
+    .main_one{
+        margin: 10px;
+        box-shadow: 0px 0px 3px 3px rgb(192, 189, 189);
+    }
+    .main_two{
+        flex-direction: column-reverse;
+        margin: 10px;
+        box-shadow: 0px 0px 3px 3px rgb(192, 189, 189);
+    }
+    .main_three{
+        margin: 10px;
+        box-shadow: 0px 0px 3px 3px rgb(192, 189, 189);;
+    }
+    .cross a{
+        padding: 10px;
+        border-radius: 30px;
+        background-color: hsl(322, 100%, 66%);
+        color: white;
+        font-size: 3.5vw;
+    }
+    #get_started{
+        font-size: 3.5vw;
+    }
+    .foot{
+        padding: 3px;
+    }
+    .foot_container{
+        margin-top: 200px;
+    }
+}
+
+/* @media screen and (max-width: 780){
+
+    .head_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1em;
+    }
+    .right img{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 600px){
+    .head_container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+}
+ */
